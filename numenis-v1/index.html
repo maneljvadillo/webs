@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia | Automatización de Procesos e IA para Empresas</title>
+    <meta name="description" content="Automatiza tu atención al cliente y generación de contenido por solo 250€. Implementación Express en 72h.">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --accent-hover: #0284c7;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); line-height: 1.6; padding: 20px; }
+        
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        
+        header { text-align: center; margin-bottom: 60px; }
+        h1 { font-size: 2.5rem; margin-bottom: 20px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        p.subtitle { font-size: 1.25rem; color: var(--text-muted); max-width: 600px; margin: 0 auto; }
+
+        .pack-card {
+            background-color: var(--card-bg);
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 40px;
+        }
+
+        .badge { display: inline-block; background: rgba(56, 189, 248, 0.1); color: var(--accent); font-weight: 600; padding: 6px 16px; border-radius: 20px; font-size: 0.9rem; margin-bottom: 15px; }
+        .price { font-size: 3.5rem; font-weight: 800; margin: 15px 0; }
+        .price span { font-size: 1rem; color: var(--text-muted); font-weight: 400; }
+
+        .features { text-align: left; max-width: 500px; margin: 30px auto; list-style: none; }
+        .features li { margin-bottom: 12px; font-size: 1.05rem; position: relative; padding-left: 28px; }
+        .features li::before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
+
+        .cta-btn {
+            display: inline-block;
+            width: 100%;
+            max-width: 400px;
+            background-color: var(--accent);
+            color: #0f172a;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: none;
+        }
+        .cta-btn:hover { background-color: var(--accent-hover); transform: translateY(-2px); }
+
+        footer { text-align: center; color: var(--text-muted); font-size: 0.85rem; margin-top: 60px; border-top: 1px solid #334155; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Haz escalar tu negocio con IA sin gastar una fortuna</h1>
+            <p class="subtitle">Automatizaciones listas para usar en 72 horas. Sin suscripciones infinitas.</p>
+        </header>
+
+        <main>
+            <div class="pack-card">
+                <span class="badge">OFERTA DE LANZAMIENTO</span>
+                <h2>Pack Automatización Express</h2>
+                <div class="price">250€ <span>pago único</span></div>
+                
+                <ul class="features">
+                    <li><strong>Chatbot IA de Atención 24/7:</strong> Integrado en tu web o WhatsApp.</li>
+                    <li><strong>Flujo de Leads Automático:</strong> Respuestas a presupuestos al instante.</li>
+                    <li><strong>Creación de Contenido Básica:</strong> Plantillas auto-generadas.</li>
+                    <li><strong>Entrega y configuración completa:</strong> Listo en menos de 3 días.</li>
+                </ul>
+
+                <a href="#contacto" class="cta-btn">Solicitar Pack Express Ahora</a>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Agencia. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
